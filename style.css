@@ -1,0 +1,92 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+}
+
+p {
+    font-size: 28px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+p:nth-child(3) {
+    width: 50%;
+    text-align: center;
+    margin-top: 0px;
+}
+
+.hero {
+    font-family: 'Marck Script', cursive;
+    font-size: 120px;
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    color: #FFD600;
+    word-spacing: -10px;
+    margin-top: 5px;
+}
+
+.bilal {
+    color: red;
+}
+
+.bold {
+    font-size: 32px;
+}
+
+.inputWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+input[type='email'],
+textarea {
+    outline: none;
+    padding: 5px;
+    width: 22em;
+    font-size: 22px;
+    border: 0;
+    border-bottom: 1px solid rgb(145, 145, 145);
+    resize: none;
+    overflow-y: hidden;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    transition: 0.2s ease;
+}
+
+textarea:focus {
+    border-bottom: 1px solid #1a1a1a;
+    padding-bottom: 35px;
+    transition: 0.2s ease;
+}
+
+input[type="email"]:focus {
+    border-bottom: 1px solid #1a1a1a;
+}
+
+input[type="file"] {
+    font-size: 17px;
+}
+
+.submitBtn {
+    border: 0;
+    background-color: #1a1a1a;
+    font-size: 20px;
+    border-radius: 7px;
+    color: white;
+    padding: 7px;
+    padding-left: 22px;
+    padding-right: 22px;
+    cursor: pointer;
+}
