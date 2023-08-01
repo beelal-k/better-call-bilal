@@ -1,0 +1,37 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Marck+Script&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <p>Need your <b class="bold">website assignment</b> done?</p>
+        <h1 class="hero">Better Call <span class="bilal">Bilal!</span></h1>
+        <p>Just send me the assignment documentation file (PDF, Word, etc)
+            and I’ll contact you <b class="bold">within 12 hours</b></p>
+    </div>
+
+    <form class="inputWrapper" id="commissionForm" method="POST"
+        action="https://better-call-bilal-beelal-k.vercel.app/submit">
+        <input type="email" name="user_email" placeholder="Your email address" class="email" id="email" required />
+        <textarea name="user_message" placeholder="A short description of the assignment" rows="1" cols="50"
+            id="description" required class="desc"></textarea>
+        <input type="file" name="user_file" />
+        <button class="submitBtn" type="submit">Submit</button>
+    </form>
+
+    <script>
+
+    </script>
+
+</body>
+
+</html>
