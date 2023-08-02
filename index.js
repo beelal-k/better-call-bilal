@@ -76,6 +76,7 @@ app.post('/submit', upload.single('user_file'), async (req, res) => {
 
         stream.on('finish', async () => {
             const publicURL = `https://storage.googleapis.com/${bucketName}/${fileName}`;
+            res.redirect('back');
             console.log(publicURL);
 
         });
