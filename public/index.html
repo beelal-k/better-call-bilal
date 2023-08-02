@@ -19,8 +19,8 @@
             and I’ll contact you <b class="bold">within 12 hours</b></p>
     </div>
 
-    <form class="inputWrapper" id="commissionForm" method="POST"
-        action="https://better-call-bilal-beelal-k.vercel.app/submit">
+    <form class="inputWrapper" id="commissionForm" method="POST" enctype="multipart/form-data"
+        action="http://localhost:3000/submit">
         <input type="email" name="user_email" placeholder="Your email address" class="email" id="email" required />
         <textarea name="user_message" placeholder="A short description of the assignment" rows="1" cols="50"
             id="description" required class="desc"></textarea>
